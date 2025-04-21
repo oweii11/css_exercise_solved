@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.number1 {
+    background-color: rgb(239, 179, 179);
+}
+
+#number2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.coolClass {
+    font-size: 24px;
+}
+
+#number4 {
+    background-color: rgb(134, 234, 134);
+    font-size: 24px;
+    font-weight: bold;
+}

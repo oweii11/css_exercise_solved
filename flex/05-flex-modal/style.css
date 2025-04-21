@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  gap: 16px;
+  position: relative;
+}
+
+.icon {
+  color: royalblue;
+  font-size: 20px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.header-text h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header-text p {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.close-button {
+  background: #d4d3d3;
+  border-radius: 50%;
+  color: #888;
+  font-size: 14px;
+  font-weight: 400;
+  height: 25px;
+  width: 25px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+  margin-left: 55px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+button.continue {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+button.cancel {
+  background: white;
+  border: 1px solid #ddd;
+  color: royalblue;
+}
